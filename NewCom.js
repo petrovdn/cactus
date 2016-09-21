@@ -53,7 +53,11 @@ var styles = StyleSheet.create({
     marginBottom: 10,
     alignSelf: 'stretch',
     justifyContent: 'center'
-  }
+  },
+  image: {
+  width: 212,
+  height: 59
+}
 });
 
 
@@ -89,24 +93,31 @@ var options = {
   else {
     // You can display the image using either data...
     const source = {uri: 'data:image/jpeg;base64,' + response.data, isStatic: true};
-
+    //uri1 = './Resources/helpme.png';
     // or a reference to the platform specific asset location
-    if (Platform.OS === 'ios') {
-      const source = {uri: response.uri.replace('file://', ''), isStatic: true};
-    } else {
-      const source = {uri: response.uri, isStatic: true};
-    }
+    source = {uri: response.uri.replace('file://', ''), isStatic: true};
+    console.log(source);
+//     if (Platform.OS === 'ios') {
+//       const source = {uri: response.uri.replace('file://', ''), isStatic: true};
+//     } else {
+//       const source = {uri: response.uri, isStatic: true};
+//     }
 
     this.setState({
       avatarSource: source
     });
+
   }
 });
  }
-  
+ 
   render() {
     return (
      <View style={styles.container}>
+        <Image source={require('./Resources/helpme.png')} style={styles.image}/>
+         <Image 
+           source={{this.state.avatarSource}} 
+           style={styles.image}/>
         <View style={styles.flowRight}> 
           <TextInput 
              style={styles.TextInput} />
@@ -114,8 +125,9 @@ var options = {
          underlayColor='lavenderblush' onPress={this.onImagePressedPressed.bind(this)}>
               <Text style={styles.buttonText}>Выбрать картинку</Text>
           </TouchableHighlight>
+          <Image source={this.state.avatarSource} style={styles.uploadAvatar} />
         </View> 
-        </View>
+      </View>
     )
   }
 }
