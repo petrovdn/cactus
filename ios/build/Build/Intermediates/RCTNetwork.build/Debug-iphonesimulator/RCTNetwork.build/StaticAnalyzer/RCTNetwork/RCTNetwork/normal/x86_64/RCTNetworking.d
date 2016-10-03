@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/petrov/proj/cactus/node_modules/react-native/Libraries/Network/RCTNetworking.m \
+  /Users/petrov/proj/cactus/node_modules/react-native/Libraries/Network/RCTNetworking.mm \
   /Users/petrov/proj/cactus/node_modules/react-native/Libraries/Network/RCTNetworking.h \
   ../../React/Modules/RCTEventEmitter.h ../../React/Base/RCTBridge.h \
   ../../React/Base/RCTBridgeDelegate.h \

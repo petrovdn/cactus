@@ -16,4 +16,5 @@ dependencies: \
   /Users/petrov/proj/cactus/node_modules/react-native/Libraries/Text/RCTShadowText.h \
   ../../React/Views/RCTShadowView.h ../../React/Base/RCTRootView.h \
   /Users/petrov/proj/cactus/node_modules/react-native/Libraries/Text/RCTText.h \
-  ../../React/Base/RCTUtils.h
+  ../../React/Base/RCTUtils.h \
+  /Users/petrov/proj/cactus/node_modules/react-native/Libraries/Text/RCTTextSelection.h

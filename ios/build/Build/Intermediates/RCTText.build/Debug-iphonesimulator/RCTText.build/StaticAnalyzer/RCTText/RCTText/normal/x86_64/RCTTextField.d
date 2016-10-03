@@ -13,4 +13,5 @@ dependencies: \
   ../../React/Base/RCTJavaScriptLoader.h \
   ../../React/Base/RCTBridgeModule.h ../../React/Base/RCTFrameUpdate.h \
   ../../React/Base/RCTInvalidating.h ../../React/Base/RCTUtils.h \
+  /Users/petrov/proj/cactus/node_modules/react-native/Libraries/Text/RCTTextSelection.h \
   ../../React/Views/UIView+React.h

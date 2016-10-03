@@ -21,4 +21,5 @@ dependencies: \
   /Users/petrov/proj/cactus/node_modules/react-native/React/Base/RCTLog.h \
   /Users/petrov/proj/cactus/node_modules/react-native/React/Views/RCTPointerEvents.h \
   /Users/petrov/proj/cactus/node_modules/react-native/React/Base/RCTParserUtils.h \
-  /Users/petrov/proj/cactus/node_modules/react-native/React/Base/RCTUtils.h
+  /Users/petrov/proj/cactus/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/petrov/proj/cactus/node_modules/react-native/React/Profiler/RCTProfile.h

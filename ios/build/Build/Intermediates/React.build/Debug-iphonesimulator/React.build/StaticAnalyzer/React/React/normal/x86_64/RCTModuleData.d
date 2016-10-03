@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/petrov/proj/cactus/node_modules/react-native/React/Base/RCTModuleData.m \
+  /Users/petrov/proj/cactus/node_modules/react-native/React/Base/RCTModuleData.mm \
   /Users/petrov/proj/cactus/node_modules/react-native/React/Base/RCTModuleData.h \
   /Users/petrov/proj/cactus/node_modules/react-native/React/Base/RCTInvalidating.h \
   /Users/petrov/proj/cactus/node_modules/react-native/React/Base/RCTBridge.h \

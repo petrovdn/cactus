@@ -23,6 +23,7 @@ dependencies: \
   /Users/petrov/proj/cactus/node_modules/react-native/React/Views/RCTComponent.h \
   /Users/petrov/proj/cactus/node_modules/react-native/React/Views/RCTModalHostView.h \
   /Users/petrov/proj/cactus/node_modules/react-native/React/Views/RCTView.h \
+  /Users/petrov/proj/cactus/node_modules/react-native/React/Views/RCTModalHostViewController.h \
   /Users/petrov/proj/cactus/node_modules/react-native/React/Base/RCTTouchHandler.h \
   /Users/petrov/proj/cactus/node_modules/react-native/React/Views/RCTShadowView.h \
   /Users/petrov/proj/cactus/node_modules/react-native/React/Base/RCTRootView.h \
